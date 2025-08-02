@@ -2,7 +2,7 @@
 
 link() {
 	ln -sf "$1" "$2"
-	echo "Linked: $2 → $1"
+	echo "Linked: $2 -> $1"
 }
 
 check_cmd() {
@@ -16,7 +16,11 @@ DOTFILES_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # zshrc
 if [[ "$SHELL" == *zsh ]]; then
 	link "$DOTFILES_DIR/zshrc" "$HOME/.zshrc"
-    link "$DOTFILES_DIR/zprofile" "$HOME/.zprofile"
+    if check_cmd brew; then
+        link "$DOTFILES_DIR/zprofile" "$HOME/.zprofile"
+    else 
+        echo "[!!] brew not found, skipping .zprofile"
+    fi
 else
 	echo "[!!] Current shell is not zsh, skipping .zshrc and .zprofile"
 fi
