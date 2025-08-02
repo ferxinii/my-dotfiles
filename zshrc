@@ -1,7 +1,3 @@
-# export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
-# export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
-
-
 # ALIASES
 alias ll='ls -ltrh'
 alias vim='nvim'
