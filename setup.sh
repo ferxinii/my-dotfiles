@@ -16,8 +16,9 @@ DOTFILES_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # zshrc
 if [[ "$SHELL" == *zsh ]]; then
 	link "$DOTFILES_DIR/zshrc" "$HOME/.zshrc"
+    link "$DOTFILES_DIR/zprofile" "$HOME/.zprofile"
 else
-	echo "[!!] Current shell is not zsh, skipping .zshrc"
+	echo "[!!] Current shell is not zsh, skipping .zshrc and .zprofile"
 fi
 
 

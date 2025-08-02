@@ -1,6 +1,5 @@
-export PATH="$PATH:/opt/homebrew/bin:/opt/homebrew/sbin"
-export PATH="$PATH:/opt/homebrew/opt/llvm/bin"
-#export PATH="$PATH:/Applications/Xcode.app/Contents/Developer/usr/bin"
+# export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
+# export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
 
 
 # ALIASES
