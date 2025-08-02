@@ -1,6 +1,6 @@
 # dotfiles
 My configuration for:
-- (brew? .zprofile paths)
+- (brew? (.zprofile paths))
 - git
 - nvim
 - starship (nice prompt)
