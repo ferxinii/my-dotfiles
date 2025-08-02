@@ -1,4 +1,4 @@
-export PATH="$PATH:/opt/homebrew/bin"
+export PATH="$PATH:/opt/homebrew/bin:/opt/homebrew/sbin"
 export PATH="$PATH:/opt/homebrew/opt/llvm/bin"
 #export PATH="$PATH:/Applications/Xcode.app/Contents/Developer/usr/bin"
 
