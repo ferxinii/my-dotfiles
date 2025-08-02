@@ -1,8 +1,5 @@
 # dotfiles
-My configuration.
-
-
-## Requirements
+My configuration for:
 - git
 - nvim
 - starship (nice prompt)
