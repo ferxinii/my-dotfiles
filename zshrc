@@ -14,6 +14,7 @@ alias ..='cd ..'
 export CLICOLOR=1
 export LSCOLORS="ExEhChChbxfxfxbxbxExEx"
 
+
 # COLORS IN MAN PAGE
 export LESS_TERMCAP_mb=$(print -P "%F{cyan}") \
     LESS_TERMCAP_md=$(print -P "%B%F{red}") \
@@ -31,5 +32,12 @@ autoload -Uz compinit
 compinit
 
 
+# EASIER WORD NAVIGATION
+export WORDCHARS='*_-.[]~;!$%^(){}<>'
+# autoload -Uz select-word-style  # These last two commands don't seem necessary?
+# select-word-style normal
+
+
 # ACTIVATE STARSHIP, PROMPT CUSTOMIZER
 eval "$(starship init zsh)"
+
