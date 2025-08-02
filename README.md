@@ -2,7 +2,7 @@
 My configuration.
 
 
-## Requirements
+## Includes configuration for
 - git
 - nvim
 - starship (nice prompt)
