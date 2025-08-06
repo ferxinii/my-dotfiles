@@ -12,6 +12,7 @@ $git_metrics\
 $git_status\
 $hg_branch\
 $python\
+$cmd_duration\
 $character"""
 
 [directory]
@@ -23,4 +24,7 @@ detect_files = []
 detect_extensions = []
 detect_folders = ['.venv']
 
+[cmd_duration]
+format = "[$duration]($style) "
+style = "yellow"
 
