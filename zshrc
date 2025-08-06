@@ -1,3 +1,7 @@
+# Shadowed homebrew paths
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+
+
 # ALIASES
 alias ll='ls -ltrh'
 alias vim='nvim'

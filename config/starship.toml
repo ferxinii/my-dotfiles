@@ -21,5 +21,6 @@ truncation_symbol = '[...]/'
 [python]
 detect_files = []
 detect_extensions = []
+detect_folders = ['.venv']
 
 
