@@ -6,6 +6,6 @@ My configuration for:
 - starship (nice prompt)
 
 ## Installation
-1. Copy the repo (in $HOME?)
+1. Copy the repo (in $HOME/my-dotfiles?)
 2. Run **setup.sh**
 
